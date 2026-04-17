@@ -76,9 +76,9 @@ const CustomerReceiptAdmin = () => {
                   <td style={{ textAlign: "left", width: "50%" }}>
                     <Link to="/">
                     <img
-                      src="images/logo.png" 
-                      alt=""
-                      style={{ width: 130 }}
+                      src="images\Group 4.png"
+                alt="cheapgoogle flight logo"
+                      style={{width:200}}
                     />
                     </Link>
                   </td>
