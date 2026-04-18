@@ -8,10 +8,12 @@ const adminpanelhome= 'admin'; //// home backend url
 
 ///// backend url
 
-const urlbc = 'http://localhost:8000'; 
+const urlbc = 'https://aquamarine-squid-721500.hostingersite.com'; 
 // // local work
+// const urlbc = 'http://localhost:8000';
 
 // const urlbc = 'https://backend-one-beta-78.vercel.app'; 
+
 
 
 // const mainColor = '#048c9b';
