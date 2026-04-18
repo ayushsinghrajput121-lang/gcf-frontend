@@ -681,7 +681,7 @@ console.log('select value', selectedCountry)
             <div className="col-lg-9">
               <div className="submit-home submit-seg-bor">
               <span>
-              <Link to="#" onClick={goBack}> <i className="fa-solid fa-arrow-left"></i>Back To Result </Link>{' '} / Flight Submit
+              <Link to="#" onClick={goBack}> <i className="fas fa-arrow-left"></i>Back To Result </Link>{' '} / Flight Submit
               </span>
 
                   </div>
@@ -1000,7 +1000,7 @@ console.log('select value', selectedCountry)
                         <div className="form-group col-md-6">
                           <label>Email<span className="require-star">*</span></label>
                           <div className="sub-wrap-icon">
-                            <i className="fa-solid fa-envelope"></i>{" "}
+                            <i className="fas fa-envelope"></i>{" "}
                             <input
                               type="email"
                               name="email"
@@ -1017,7 +1017,7 @@ console.log('select value', selectedCountry)
                         <div className="form-group col-md-6">
                           <label>Phone<span className="require-star">*</span></label>
                           <div className="sub-wrap-icon">
-                            <i className="fa-solid fa-phone"></i>{" "}
+                            <i className="fas fa-phone"></i>{" "}
                             <input
                               type="text"
                               name="phone"
@@ -1086,7 +1086,7 @@ console.log('select value', selectedCountry)
                                   <div className="form-group">
                                     <label>First Name<span className="require-star">*</span></label>
                                     <div className="sub-wrap-icon">
-                                      <i className="fa-solid fa-user"></i>
+                                      <i className="fas fa-user"></i>
                                       <input
                                         type="text"
                                         autocomplete="off"
@@ -1112,7 +1112,7 @@ console.log('select value', selectedCountry)
                                   <div className="form-group">
                                     <label>Middle Name</label>
                                     <div className="sub-wrap-icon">
-                                      <i className="fa-solid fa-user"></i>
+                                      <i className="fas fa-user"></i>
                                       <input
                                         type="text"
                                         autocomplete="off"
@@ -1137,7 +1137,7 @@ console.log('select value', selectedCountry)
                                   <div className="form-group">
                                     <label>Last Name<span className="require-star">*</span></label>
                                     <div className="sub-wrap-icon">
-                                      <i className="fa-solid fa-user"></i>
+                                      <i className="fas fa-user"></i>
                                       <input
                                         type="text"
                                         required
@@ -1193,7 +1193,7 @@ console.log('select value', selectedCountry)
                       <div className="row">
                         <div className="col-md-12 mb-3">
                           <p className="cabib-para">
-                            <i class="fa-solid fa-circle-info"></i> Traveling
+                            <i className="fas fa-info-circle"></i> Traveling
                             With Others and Want to Choose Your Seats? Consider
                             Main Cabin
                           </p>
@@ -1203,19 +1203,19 @@ console.log('select value', selectedCountry)
                             <h3>Basic</h3>
                             <ul style={{listStyle: 'none', padding: '0'}} className="mt-3">
                               <li>
-                                <i class="fa-solid fa-ban"></i> No seat(s)
+                                <i className="fas fa-ban"></i> No seat(s)
                                 assigned until after check-in, not together
                               </li>
                               <li>
-                                <i class="fa-solid fa-ban"></i> No changes
+                                <i className="fas fa-ban"></i> No changes
                                 allowed
                               </li>
                               <li>
-                                <i class="fa-solid fa-ticket"></i> Cancel for
+                                <i className="fas fa-ticket-alt"></i> Cancel for
                                 partial eCredit
                               </li>
                               <li>
-                                <i class="fa-solid fa-ban"></i> Last to board &
+                                <i className="fas fa-ban"></i> Last to board &
                                 not eligible for upgrades
                               </li>
                             </ul>
@@ -1226,19 +1226,19 @@ console.log('select value', selectedCountry)
                             <h3>Main Cabin</h3>
                             <ul style={{listStyle: 'none', padding: '0'}} className="mt-3">
                               <li>
-                                <i class="fa-solid fa-paper-plane"></i> Select &
+                                <i className="fas fa-paper-plane"></i> Select &
                                 change seats at any time
                               </li>
                               <li>
-                                <i class="fa-solid fa-ticket"></i> Changes
+                                <i className="fas fa-ticket-alt"></i> Changes
                                 allowed with no change fees
                               </li>
                               <li>
-                                <i class="fa-solid fa-ticket"></i> Cancel for
+                                <i className="fas fa-ticket-alt"></i> Cancel for
                                 full eCredit after 24 hours
                               </li>
                               <li>
-                                <i class="fa-solid fa-paper-plane"></i> 41
+                                <i className="fas fa-paper-plane"></i> 41
                                 Earlier access to overhead bins & eligible to
                                 purchase upgrades
                               </li>
@@ -1285,7 +1285,7 @@ console.log('select value', selectedCountry)
                           <div className="form-group">
                             <label>First Name<span className="require-star">*</span></label>
                             <div className="sub-wrap-icon">
-                              <i class="fa-solid fa-user"></i>{" "}
+                              <i className="fas fa-user"></i>{" "}
                               <input
                                 type="text"
                                 autocomplete="off"
@@ -1302,7 +1302,7 @@ console.log('select value', selectedCountry)
                           <div className="form-group">
                             <label>Middle Name</label>
                             <div className="sub-wrap-icon">
-                              <i class="fa-solid fa-user"></i>{" "}
+                              <i className="fas fa-user"></i>{" "}
                               <input
                                 type="text"
                                 autocomplete="off"
@@ -1318,7 +1318,7 @@ console.log('select value', selectedCountry)
                           <div className="form-group">
                             <label>Last Name<span className="require-star">*</span></label>
                             <div className="sub-wrap-icon">
-                              <i class="fa-solid fa-user"></i>{" "}
+                              <i className="fas fa-user"></i>{" "}
                               <input
                                 type="text"
                                 autocomplete="off"
@@ -1335,7 +1335,7 @@ console.log('select value', selectedCountry)
                           <div className="form-group">
                             <label>Card Number<span className="require-star">*</span></label>
                             <div className="sub-wrap-icon">
-                              <i class="fa-regular fa-credit-card"></i>
+                              <i className="far fa-credit-card"></i>
                               <input
                                 type="text"
                                 autocomplete="off"
