@@ -27,10 +27,9 @@ const Navbar = () => {
           <div className="container-fluid">
             <Link to="/" className="navbar-brand p-0">
               <img
-                src="images\Group 4.png"
+                src="images/Group 4.png"
                 alt="cheapgoogle flight logo"
                 className="img-fluid logo"
-                style={{ width: "200px" }}
               />
             </Link>
             <button
@@ -63,7 +62,7 @@ const Navbar = () => {
                   Contact Us
                 </Link>
                 <Link className="nav-item nav-link mynav-link call-nav" to={`tel:${phoneNumber}`} onClick={closeMenu}>
-                <i className="fa-solid fa-headset" aria-hidden="true"></i>{phoneNumber}</Link>
+                <i className="fas fa-headset" aria-hidden="true"></i> {phoneNumber}</Link>
               </div>
             </div>
           </div>

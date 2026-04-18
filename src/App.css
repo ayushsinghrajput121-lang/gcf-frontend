@@ -1897,7 +1897,14 @@ section {
 
 /*  Home */
 .logo {
-    width: 140px;
+    width: 200px;
+    max-width: 100%;
+}
+
+@media (max-width: 576px) {
+    .logo {
+        width: 150px;
+    }
 }
 
 .customNav {
