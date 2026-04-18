@@ -134,19 +134,19 @@ const Footer = () => {
               </div>
               <div className="footer_first_area">
                 <div className="footer_inquery_area ft-ad">
-                <i class="fa-solid fa-headset"></i> 
+                <i className="fa-solid fa-headset"></i> 
                   <h3>
                   <Link to="tel:+00-123-456-789">{phoneNumber}</Link>
                   </h3>
                 </div>
                 <div className="footer_inquery_area ft-ad">
-                <i class="fa-regular fa-envelope"></i>  
+                <i className="fa-regular fa-envelope"></i>  
                   <h3>
                     <Link to="mailto:support@domain.com">{email}</Link>
                   </h3>
                 </div>
                 <div className="footer_inquery_area ft-ad">
-                <i class="fa-solid fa-map-location-dot"></i> 
+                <i className="fa-solid fa-map-location-dot"></i> 
                   <h3>
                     <Link to="mailto:support@domain.com">{companyAddress}</Link>
                   </h3>
